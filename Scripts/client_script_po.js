@@ -15,7 +15,7 @@ define(['N/record', 'N/ui/dialog', 'N/search'], function (record, dialog, search
             fieldId: 'entity'
         });
 
-        alert(vendorId);
+        //alert(vendorId);
 
         var lookup = search.lookupFields({
             type: search.Type.VENDOR,
